@@ -8,7 +8,7 @@ organized_pigeons = {}
         if not
           organized_pigeons[name]
           organized_pigeons[name] = {original_key: [new_key.to_s]}
-        else if not 
+        elseif not 
           organized_pigeons[name].key?(original_key)
           organized_pigeons[name][original_key] = [new_key.to_s]
         else 

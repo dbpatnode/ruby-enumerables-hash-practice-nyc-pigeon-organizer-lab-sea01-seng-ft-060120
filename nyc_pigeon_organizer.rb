@@ -5,8 +5,9 @@ organized_pigeons = {}
       new_value.each do |name|
         if child_value.include?(name)
         if not organized_pigeons[name]
-        organized_pigeons[name] = {original_key: [new_key.to_s]}
-        else if not organized_pigeons[name].key?
+          organized_pigeons[name] = {original_key: [new_key.to_s]}
+        else if not organized_pigeons[name].key?(original_key)
+          
         else 
         end
       end

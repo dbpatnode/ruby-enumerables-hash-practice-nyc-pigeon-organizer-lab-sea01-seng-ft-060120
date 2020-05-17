@@ -4,7 +4,8 @@ organized_pigeons = {}
     data.each do |new_key, new_value|
       new_value.each do |name|
         if child_value.include?(name)
-        if not 
+        if not organized_pigeons[name]
+        
         end
       end
     end

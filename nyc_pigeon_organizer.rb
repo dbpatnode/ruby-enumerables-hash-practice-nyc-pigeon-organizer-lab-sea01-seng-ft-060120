@@ -5,7 +5,8 @@ organized_pigeons = {}
       new_value.each do |name|
         if child_value.include?(name)
         if not organized_pigeons[name]
-        
+        else if not 
+        else 
         end
       end
     end

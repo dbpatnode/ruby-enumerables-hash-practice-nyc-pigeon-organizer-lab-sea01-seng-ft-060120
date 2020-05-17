@@ -12,7 +12,8 @@ organized_pigeons = {}
           organized_pigeons[name].key?(original_key)
           organized_pigeons[name][original_key] = [new_key.to_s]
         else 
-          organized_pigeons[name][original_key] << [new_key.to_s]
+          organized_pigeons[name][original_key] << new_key.to_s
+        end
         end
       end
     end

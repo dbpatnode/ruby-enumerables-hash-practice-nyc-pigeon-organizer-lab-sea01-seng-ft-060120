@@ -6,7 +6,7 @@ organized_pigeons = {}
         if child_value.include?(name)
         if not organized_pigeons[name]
         organized_pigeons[name] = {original_key: [new_key.to_s]}
-        else if not organized_pigeons[name]
+        else if not organized_pigeons[name].key?
         else 
         end
       end

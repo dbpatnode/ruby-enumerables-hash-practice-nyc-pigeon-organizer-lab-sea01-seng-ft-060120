@@ -4,11 +4,11 @@ organized_pigeons = {}
     data.each do |new_key, new_value|
       new_value.each do |name|
         if 
-          child_value.include?(name)
+          new_value.include?(name)
         if not
           organized_pigeons[name]
           organized_pigeons[name] = {original_key: [new_key.to_s]}
-        elseif not 
+        else if not 
           organized_pigeons[name].key?(original_key)
           organized_pigeons[name][original_key] = [new_key.to_s]
         else 

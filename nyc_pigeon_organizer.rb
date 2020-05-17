@@ -3,7 +3,7 @@ organized_pigeons = {}
   data.each do |original_key, orignal_value|
     data.each do |new_key, new_value|
       new_value.each do |name|
-        if child_value.include? 
+        if child_value.include?(name)
       end
     end
   end
